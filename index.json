@@ -1,0 +1,7 @@
+{
+  "id": "core-bootstrap",
+  "name": "Core Bootstrap",
+  "files": [
+    "https://raw.githubusercontent.com/KjellMeister-Severed/Borealis-Content-Pack/refs/heads/master/races/elf.json"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ID_CORE_RACES_ELF",
+  "type": "race",
+  "name": "Elf",
+  "validFor": [
+    "5",
+    "5.5"
+  ],
+  "metadata": {
+    "tags": [
+      "core",
+      "srd"
+    ],
+    "source": {
+      "id": "ID_SOURCE_SRD",
+      "name": "System Reference Document",
+      "alias": "SRD",
+      "link": "https://dnd.wizards.com/resources/systems-reference-document"
+    }
+  },
+  "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
+  "grants": [
+    {
+      "kind": "ability",
+      "ability": "DEX",
+      "value": 2
+    }
+  ]
+}
