@@ -1,16 +1,9 @@
 {
-  "id": "ID_CORE_RACES_ELF",
-  "type": "race",
-  "name": "Elf",
-  "validFor": [
-    "5",
-    "5.5"
-  ],
-  "metadata": {
-    "tags": [
-      "core",
-      "srd"
-    ],
+  "pack": {
+    "id": "ID_CORE_RACES",
+    "version": "1.0.0",
+    "name": "Core Races Pack",
+    "description": "Includes the base races from the SRD",
     "source": {
       "id": "ID_SOURCE_SRD",
       "name": "System Reference Document",
@@ -18,12 +11,35 @@
       "link": "https://dnd.wizards.com/resources/systems-reference-document"
     }
   },
-  "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it.",
-  "grants": [
+  "elements": [
     {
-      "kind": "ability",
-      "ability": "DEX",
-      "value": 2
+      "id": "ID_CORE_RACES_ELF",
+      "type": "race",
+      "name": "Elf",
+      "validFor": [
+        "5",
+        "5.5"
+      ],
+      "metadata": {
+        "tags": [
+          "core",
+          "srd"
+        ],
+        "source": {
+          "id": "ID_SOURCE_SRD",
+          "name": "System Reference Document",
+          "alias": "SRD",
+          "link": "https://dnd.wizards.com/resources/systems-reference-document"
+        }
+      },
+      "description": "Elves are a magical people of otherworldly grace.",
+      "grants": [
+        {
+          "kind": "ability",
+          "ability": "DEX",
+          "value": 2
+        }
+      ]
     }
   ]
 }
