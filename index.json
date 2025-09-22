@@ -2,8 +2,10 @@
   "id": "core-bootstrap",
   "remote": "https://raw.githubusercontent.com/KjellMeister-Severed/Borealis-Content-Pack/refs/heads/master/index.json",
   "version": "1.0",
-  "contentFiles": {
-    "id": "ID_CORE_RACES_ELF",
-    "remote": "https://raw.githubusercontent.com/KjellMeister-Severed/Borealis-Content-Pack/refs/heads/master/races/elf.json"
-  }
+  "contentFiles": [
+    {
+      "id": "ID_CORE_RACES_ELF",
+      "remote": "https://raw.githubusercontent.com/KjellMeister-Severed/Borealis-Content-Pack/refs/heads/master/races/elf.json"
+    }
+  ]
 }
