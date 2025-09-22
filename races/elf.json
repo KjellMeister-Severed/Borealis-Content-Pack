@@ -1,16 +1,5 @@
 {
-  "pack": {
-    "id": "ID_CORE_RACES",
-    "version": "1.0.0",
-    "name": "Core Races Pack",
-    "description": "Includes the base races from the SRD",
-    "source": {
-      "id": "ID_SOURCE_SRD",
-      "name": "System Reference Document",
-      "alias": "SRD",
-      "link": "https://dnd.wizards.com/resources/systems-reference-document"
-    }
-  },
+  "id": "ID_CORE_RACES_ELF",
   "elements": [
     {
       "id": "ID_CORE_RACES_ELF",
